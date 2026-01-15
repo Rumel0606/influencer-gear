@@ -19,14 +19,29 @@ body{
     align-items: center;
 }
 :root{
-    --primary-color:color: rgba(58, 58, 58, 1);
+    --primary-color:rgba(58, 58, 58, 1);;
     --btn-color:#E02C6D;
+}
+.btn{
+    background-color: var(--btn-color);
+    color: white;
+    font-size: 15px;
+    padding: 8px 20px;
+    border-radius: 20px;
+    border: none;
+  
+}
+.btn:hover{
+    background-color: var(--primary-color);
 }
 
 
 /* Header Style */
+.navbar{
+    display: none;
+}
 nav{
-    padding: 30px 0;
+    padding: 35px 0;
 }
 nav .nav-logo{
     font-size: 22px;
@@ -52,4 +67,28 @@ nav .nav-logo:hover{
 }
 .nav-right ul li a:hover{
     color: var(--btn-color);
+}
+/* Hero Styling */
+.hero-left{
+    width: 600px;
+}
+.hero-left h1{
+    font-size: 45px;
+    color: var(--primary-color);
+    line-height:1.4em;
+    
+}
+.hero-left p {
+    font-size: 13px;
+    color: var(--primary-color);
+    margin: 15px 0;
+}
+.hero-right {
+    background-image: url(./images/Circle\ design.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.arrow{
+    width: 13px;
 }

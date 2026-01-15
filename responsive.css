@@ -1,0 +1,41 @@
+@media screen and (max-width:576px) {
+    .masterwid{
+    max-width:500px;
+}
+    header{
+        width: 100%;
+    }
+    .navbar{
+    display:inline-block;
+}
+.nav-right ul li {
+    display: none;
+}
+nav{
+    padding: 5px 0;
+}
+.hero-section{
+    width: 425px;
+    flex-direction: column-reverse;
+}
+.hero-left{
+    width:500px;
+}
+.hero-right{
+    width:500px;
+}
+}
+
+
+
+
+
+
+
+
+
+/* Medium device */
+@media screen and (min-width:576px) and (max-width:768px) {
+    
+}
+

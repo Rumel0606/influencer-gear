@@ -5,7 +5,7 @@
     list-style: none;
 }
 body{
-    font-family: "Yeseva One", serif;
+    font-family: "Poppins", sans-serif;
 }
 /* Shared Style */
 .masterwid{
@@ -15,7 +15,7 @@ body{
 }
 .flexxi{
     display: flex;
-    justify-content: space-between;
+    gap: 100px;
     align-items: center;
 }
 :root{
@@ -42,6 +42,9 @@ body{
 }
 nav{
     padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 nav .nav-logo{
     font-size: 22px;
@@ -91,4 +94,105 @@ nav .nav-logo:hover{
 }
 .arrow{
     width: 13px;
+}
+
+/* sponsor-section */
+.sponsor-content img {
+    width: 90px;
+    height: 90px;
+}
+.sponsor-content{
+    margin-top: 50px;
+    padding: 40px;
+    border:1px solid rgb(244, 243, 243);
+    border-radius:4px;
+    border-left: none;
+    border-right: none
+    
+}
+/* Cllection Section */
+.collection-main  {
+    margin-top: 70px;
+}
+.collection-title{
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 30px;
+}
+.collection-card{
+    margin-top: 40px;
+    display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 10px;
+}
+.card{
+    width:100%;
+    max-width: 360px;
+    background: #f7f5f5;
+    padding: 15px;
+    border-radius: 6px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+ .card h2 {
+    font-size: 25px;
+    font-weight: 400;
+    margin: 10px 0;
+ }
+ .card h3{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 5px 0;
+ }
+ .card>img {
+    width: 100%;
+ }
+ .card p {
+    color: var(--primary-color);
+    margin: 10px 0;
+ }
+ /* Features Section */
+ .features-section{
+    margin-top: 70px;
+    justify-content: center;
+    gap: 100px;
+ }
+ .features-content{
+    width: 600px;
+ }
+
+.features-content h1 {
+    font-size: 37px;
+    color: var(--primary-color);
+}
+.features-content p {
+    color: var(--primary-color);
+    font-size: 13px;
+    margin: 10px 0;
+}
+.features-content button {
+    background-color: var(--btn-color);
+    font-size: 15px;
+    color: white;
+    border: none;
+    padding: 8px 18px;
+}
+/* Footer Section */
+.footer-section{
+    margin-top: 50px;
+    background-color: black;
+    text-align: center;
+    padding: 50px 0;
+}
+.footer-content{
+    color: white;
+}
+.footer-content p{
+    font-size: 10px;
+}
+.social-icon img {
+    width: 20px;
+    margin-left: 7px;
+}
+.social-icon{
+    margin-top: 15px;
 }
